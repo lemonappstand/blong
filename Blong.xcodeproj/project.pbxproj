@@ -14,6 +14,8 @@
 		975C7FAD19F57E5E0086C980 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 975C7FAC19F57E5E0086C980 /* Images.xcassets */; };
 		975C7FB019F57E5E0086C980 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 975C7FAE19F57E5E0086C980 /* LaunchScreen.xib */; };
 		975C7FBC19F57E5E0086C980 /* BlongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 975C7FBB19F57E5E0086C980 /* BlongTests.m */; };
+		97B43E5819F9D0DD0060DCDC /* soccer.png in Resources */ = {isa = PBXBuildFile; fileRef = 97B43E5719F9D0DD0060DCDC /* soccer.png */; };
+		97B43E5A19FC79BE0060DCDC /* field.png in Resources */ = {isa = PBXBuildFile; fileRef = 97B43E5919FC79BE0060DCDC /* field.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		975C7FB519F57E5E0086C980 /* BlongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		975C7FBA19F57E5E0086C980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		975C7FBB19F57E5E0086C980 /* BlongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlongTests.m; sourceTree = "<group>"; };
+		97B43E5719F9D0DD0060DCDC /* soccer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soccer.png; sourceTree = "<group>"; };
+		97B43E5919FC79BE0060DCDC /* field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = field.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 				975C7FA719F57E5E0086C980 /* ViewController.m */,
 				975C7FA919F57E5E0086C980 /* Main.storyboard */,
 				975C7FAC19F57E5E0086C980 /* Images.xcassets */,
+				97B43E5919FC79BE0060DCDC /* field.png */,
+				97B43E5719F9D0DD0060DCDC /* soccer.png */,
 				975C7FAE19F57E5E0086C980 /* LaunchScreen.xib */,
 				975C7F9F19F57E5E0086C980 /* Supporting Files */,
 			);
@@ -199,6 +205,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97B43E5819F9D0DD0060DCDC /* soccer.png in Resources */,
+				97B43E5A19FC79BE0060DCDC /* field.png in Resources */,
 				975C7FAB19F57E5E0086C980 /* Main.storyboard in Resources */,
 				975C7FB019F57E5E0086C980 /* LaunchScreen.xib in Resources */,
 				975C7FAD19F57E5E0086C980 /* Images.xcassets in Resources */,
@@ -414,6 +422,7 @@
 				975C7FC119F57E5E0086C980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		975C7FC219F57E5E0086C980 /* Build configuration list for PBXNativeTarget "BlongTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +431,7 @@
 				975C7FC419F57E5E0086C980 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
